@@ -1,6 +1,6 @@
 
 A library for loading and playing audio using HTML 5 for Angular 7/8/9/10/11/12/13/14.  
-(https://vmudigal.github.io/ngx-audio-player/)
+(https://github.com/khajegan/ngx-audio-player)
 
 
 ## Table of contents

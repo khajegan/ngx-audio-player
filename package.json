@@ -1,6 +1,6 @@
 {
   "name": "@khajegan/ngx-audio-player",
-  "version": "14.0.1",
+  "version": "14.0.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/khajegan/ngx-audio-player.git"
@@ -32,14 +32,16 @@
     "start": "ng serve --host 0.0.0.0",
     "lch-build": "ng build",
     "prod-build": "ng build --configuration production",
-    "build-lib": "ng build ngx-audio-player --configuration production",
+    "build:lib": "ng build ngx-audio-player --configuration production",
     "publish-lib": "npm publish --f dist/ngx-audio-player --configuration production",
     "build-demo": "ng build --configuration production --base-href https://vmudigal.github.io/ngx-audio-player/",
     "publish-demo": "npx ngh --dir=dist/ngx-audio-player-demo/",
     "test": "ng test --code-coverage --reporters=coverage-istanbul",
     "test-lib": "ng test ngx-audio-player --code-coverage --reporters=coverage-istanbul",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build:pack": "cd dist/ngx-audio-player && npm pack",
+    "build:package": "npm run build:lib && npm run build:pack"
   },
   "dependencies": {
     "@angular-devkit/build-ng-packagr": "^0.1002.0",
@@ -86,7 +88,7 @@
     "typescript": "~4.6.4",
     "webpack": "^4.46.0"
   },
-  "description": "A library for loading and playing audio using HTML 5 for Angular 7/8/9/10/11/12/13/14.   (https://vmudigal.github.io/ngx-audio-player/)",
+  "description": "A library for loading and playing audio using HTML 5 for Angular 7/8/9/10/11/12/13/14",
   "bugs": {
     "url": "https://github.com/khajegan/ngx-audio-player/issues"
   },
