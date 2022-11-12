@@ -1,5 +1,5 @@
 /**
  * Generated bundle index. Do not edit.
  */
-/// <amd-module name="ngx-audio-player" />
+/// <amd-module name="@khajegan/ngx-audio-player" />
 export * from './public_api';

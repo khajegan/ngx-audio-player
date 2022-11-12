@@ -4,7 +4,7 @@
   "description": "Angular 14 ngx-audio-player",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/khajegan/ngx-audio-player.git"
+    "url": "https://github.com/khajegan/ngx-audio-player.git"
   },
   "author": "Amir Hossein Khajegan",
   "keywords": [
@@ -46,11 +46,11 @@
   "dependencies": {
     "tslib": "^2.3.0"
   },
-  "module": "fesm2015/ngx-audio-player.mjs",
-  "es2020": "fesm2020/ngx-audio-player.mjs",
-  "esm2020": "esm2020/ngx-audio-player.mjs",
-  "fesm2020": "fesm2020/ngx-audio-player.mjs",
-  "fesm2015": "fesm2015/ngx-audio-player.mjs",
+  "module": "fesm2015/khajegan-ngx-audio-player.mjs",
+  "es2020": "fesm2020/khajegan-ngx-audio-player.mjs",
+  "esm2020": "esm2020/khajegan-ngx-audio-player.mjs",
+  "fesm2020": "fesm2020/khajegan-ngx-audio-player.mjs",
+  "fesm2015": "fesm2015/khajegan-ngx-audio-player.mjs",
   "typings": "index.d.ts",
   "exports": {
     "./package.json": {
@@ -58,21 +58,12 @@
     },
     ".": {
       "types": "./index.d.ts",
-      "esm2020": "./esm2020/ngx-audio-player.mjs",
-      "es2020": "./fesm2020/ngx-audio-player.mjs",
-      "es2015": "./fesm2015/ngx-audio-player.mjs",
-      "node": "./fesm2015/ngx-audio-player.mjs",
-      "default": "./fesm2020/ngx-audio-player.mjs"
+      "esm2020": "./esm2020/khajegan-ngx-audio-player.mjs",
+      "es2020": "./fesm2020/khajegan-ngx-audio-player.mjs",
+      "es2015": "./fesm2015/khajegan-ngx-audio-player.mjs",
+      "node": "./fesm2015/khajegan-ngx-audio-player.mjs",
+      "default": "./fesm2020/khajegan-ngx-audio-player.mjs"
     }
   },
-  "sideEffects": false,
-  "description": "A library for loading and playing audio using HTML 5 for Angular 7/8/9/10/11/12/13/14.   (https://github.com/khajegan/ngx-audio-player)",
-  "homepage": "https://github.com/khajegan/ngx-audio-player#readme",
-  "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  "sideEffects": false
 }
