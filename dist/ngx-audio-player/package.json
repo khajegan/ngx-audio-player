@@ -1,0 +1,77 @@
+{
+  "name": "@khajegan/ngx-audio-player",
+  "version": "14.0.2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khajegan/ngx-audio-player.git"
+  },
+  "author": "Amir Hossein Khajegan",
+  "keywords": [
+    "ngx",
+    "audio",
+    "player",
+    "angular",
+    "angular7",
+    "angular8",
+    "angular9",
+    "angular10",
+    "angular11",
+    "angular12",
+    "angular13",
+    "angular14",
+    "audio player",
+    "angular audio player",
+    "audio player with playlist",
+    "material style audio player",
+    "material style basic audio player",
+    "material style advanced audio player"
+  ],
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/khajegan/ngx-audio-player/blob/master/projects/ngx-audio-player/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/khajegan/ngx-audio-player/issues"
+  },
+  "peerDependencies": {
+    "@angular/common": "^14.2.0",
+    "@angular/core": "^14.2.0",
+    "@angular/material": "^14.2.5",
+    "rxjs": "~7.5.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "module": "fesm2015/ngx-audio-player.mjs",
+  "es2020": "fesm2020/ngx-audio-player.mjs",
+  "esm2020": "esm2020/ngx-audio-player.mjs",
+  "fesm2020": "fesm2020/ngx-audio-player.mjs",
+  "fesm2015": "fesm2015/ngx-audio-player.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/ngx-audio-player.mjs",
+      "es2020": "./fesm2020/ngx-audio-player.mjs",
+      "es2015": "./fesm2015/ngx-audio-player.mjs",
+      "node": "./fesm2015/ngx-audio-player.mjs",
+      "default": "./fesm2020/ngx-audio-player.mjs"
+    }
+  },
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with Ivy partial compilation mode, before attempting to publish.\\n')\" && exit 1"
+  },
+  "description": "A library for loading and playing audio using HTML 5 for Angular 7/8/9/10/11/12/13/14.   (https://github.com/khajegan/ngx-audio-player)",
+  "homepage": "https://github.com/khajegan/ngx-audio-player#readme",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  }
+}

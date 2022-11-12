@@ -1,15 +1,11 @@
 {
   "name": "ngx-audio-player",
-  "version": "11.0.4",
+  "version": "14.0.2",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vmudigal/ngx-audio-player.git"
+    "url": "https://github.com/khajegan/ngx-audio-player.git"
   },
-  "author": {
-    "name": "Vijayendra Mudigal",
-    "email": "vijayendrap@gmail.com",
-    "url": "https://vijayendra.mudigal.com"
-  },
+  "author": "Amir Hossein Khajegan",
   "keywords": [
     "ngx",
     "audio",
@@ -20,6 +16,9 @@
     "angular9",
     "angular10",
     "angular11",
+    "angular12",
+    "angular13",
+    "angular14",
     "audio player",
     "angular audio player",
     "audio player with playlist",
@@ -31,19 +30,19 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/vmudigal/ngx-audio-player/blob/master/projects/ngx-audio-player/LICENSE"
+      "url": "https://github.com/khajegan/ngx-audio-player/blob/master/projects/ngx-audio-player/LICENSE"
     }
   ],
   "bugs": {
-    "url": "https://github.com/vmudigal/ngx-audio-player/issues"
+    "url": "https://github.com/khajegan/ngx-audio-player/issues"
   },
   "peerDependencies": {
-    "@angular/common": "^11.0.0",
-    "@angular/core": "^11.0.0",
-    "@angular/material": "^11.0.0",
-    "rxjs": "^6.6.3"
+    "@angular/common": "^14.2.0",
+    "@angular/core": "^14.2.0",
+    "@angular/material": "^14.2.5",
+    "rxjs": "~7.5.0"
   },
   "dependencies": {
-    "tslib": "^2.0.0"
+    "tslib": "^2.3.0"
   }
 }
