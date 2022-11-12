@@ -8,4 +8,3 @@ export declare class Track {
     artist?: string;
     toString: () => string;
 }
-//# sourceMappingURL=track.model.d.ts.map

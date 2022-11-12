@@ -17,4 +17,3 @@ export declare class AudioPlayerService {
     static ɵfac: i0.ɵɵFactoryDeclaration<AudioPlayerService, never>;
     static ɵprov: i0.ɵɵInjectableDeclaration<AudioPlayerService>;
 }
-//# sourceMappingURL=audio-player.service.d.ts.map

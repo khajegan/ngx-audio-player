@@ -5,4 +5,3 @@ export declare class SecondsToMinutesPipe implements PipeTransform {
     static ɵfac: i0.ɵɵFactoryDeclaration<SecondsToMinutesPipe, never>;
     static ɵpipe: i0.ɵɵPipeDeclaration<SecondsToMinutesPipe, "secondsToMinutes", false>;
 }
-//# sourceMappingURL=seconds-to-minutes.d.ts.map

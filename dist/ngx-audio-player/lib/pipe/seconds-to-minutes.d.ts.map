@@ -1,1 +1,0 @@
-{"version":3,"file":"seconds-to-minutes.d.ts","sourceRoot":"","sources":["../../../../projects/ngx-audio-player/src/lib/pipe/seconds-to-minutes.ts"],"names":[],"mappings":"AAAA,OAAO,EAAQ,aAAa,EAAE,MAAM,eAAe,CAAC;;AAKpD,qBACa,oBAAqB,YAAW,aAAa;IACtD,SAAS,CAAC,IAAI,EAAE,MAAM,GAAG,MAAM;yCADtB,oBAAoB;uCAApB,oBAAoB;CAQhC"}

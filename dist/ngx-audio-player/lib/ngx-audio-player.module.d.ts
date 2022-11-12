@@ -16,4 +16,3 @@ export declare class NgxAudioPlayerModule {
     static ɵmod: i0.ɵɵNgModuleDeclaration<NgxAudioPlayerModule, [typeof i1.SecondsToMinutesPipe, typeof i2.AudioPlayerComponent], [typeof i3.CommonModule, typeof i4.FormsModule, typeof i5.MatButtonModule, typeof i6.MatCardModule, typeof i7.MatTableModule, typeof i8.MatFormFieldModule, typeof i9.MatSliderModule, typeof i10.MatExpansionModule, typeof i11.MatPaginatorModule, typeof i12.MatIconModule], [typeof i2.AudioPlayerComponent]>;
     static ɵinj: i0.ɵɵInjectorDeclaration<NgxAudioPlayerModule>;
 }
-//# sourceMappingURL=ngx-audio-player.module.d.ts.map

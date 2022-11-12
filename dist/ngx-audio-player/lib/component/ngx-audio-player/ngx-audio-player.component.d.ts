@@ -65,4 +65,3 @@ export declare class AudioPlayerComponent implements OnInit, OnChanges {
     static ɵfac: i0.ɵɵFactoryDeclaration<AudioPlayerComponent, never>;
     static ɵcmp: i0.ɵɵComponentDeclaration<AudioPlayerComponent, "mat-advanced-audio-player,ngx-audio-player", never, { "playlist": "playlist"; "displayTitle": "displayTitle"; "displayPlaylist": "displayPlaylist"; "displayVolumeControls": "displayVolumeControls"; "displayRepeatControls": "displayRepeatControls"; "pageSizeOptions": "pageSizeOptions"; "expanded": "expanded"; "autoPlay": "autoPlay"; "disablePositionSlider": "disablePositionSlider"; "displayArtist": "displayArtist"; "displayDuration": "displayDuration"; "tableHeader": "tableHeader"; "titleHeader": "titleHeader"; "artistHeader": "artistHeader"; "durationHeader": "durationHeader"; "startOffset": "startOffset"; "endOffset": "endOffset"; }, { "trackEnded": "trackEnded"; }, never, never, false>;
 }
-//# sourceMappingURL=ngx-audio-player.component.d.ts.map
