@@ -34,22 +34,22 @@
               {
                 "inject": false,
                 "input": "./node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css",
-                "bundleName": "assets/pink-bluegrey"
+                "bundleName": "pink-bluegrey"
               },
               {
                 "inject": false,
                 "input": "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
-                "bundleName": "assets/deeppurple-amber"
+                "bundleName": "deeppurple-amber"
               },
               {
                 "inject": false,
                 "input": "./node_modules/@angular/material/prebuilt-themes/purple-green.css",
-                "bundleName": "assets/purple-green"
+                "bundleName": "purple-green"
               },
               {
                 "inject": true,
                 "input": "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
-                "bundleName": "assets/indigo-pink"
+                "bundleName": "indigo-pink"
               }
             ],
             
