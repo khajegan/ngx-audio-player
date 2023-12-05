@@ -209,7 +209,7 @@ export class AudioPlayerComponent implements OnInit, OnChanges {
         // Subscribe to playlist observer from AudioPlayerService and
         // update the playlist within MatAdvancedAudioPlayerComponent
         this.audioPlayerService.getPlaylist().subscribe(tracks => {
-            if (tracks !== null && tracks !== []) {
+            if (tracks !== null && tracks.length > 0) {
                 this.tracks = tracks;
                 this.initialize();
             }

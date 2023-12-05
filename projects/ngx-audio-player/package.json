@@ -38,8 +38,8 @@
     "url": "https://github.com/khajegan/ngx-audio-player/issues"
   },
   "peerDependencies": {
-    "@angular/common": "^14.2.0",
-    "@angular/core": "^14.2.0",
+    "@angular/common": "^15.2.10",
+    "@angular/core": "^15.2.10",
     "@angular/material": "^14.2.5",
     "rxjs": "~7.5.0"
   },

@@ -38,8 +38,8 @@
     "url": "https://github.com/khajegan/ngx-audio-player/issues"
   },
   "peerDependencies": {
-    "@angular/common": "^14.2.0",
-    "@angular/core": "^14.2.0",
+    "@angular/common": "^15.2.10",
+    "@angular/core": "^15.2.10",
     "@angular/material": "^14.2.5",
     "rxjs": "~7.5.0"
   },
@@ -65,5 +65,8 @@
       "default": "./fesm2020/khajegan-ngx-audio-player.mjs"
     }
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with Ivy partial compilation mode, before attempting to publish.\\n')\" && exit 1"
+  }
 }
