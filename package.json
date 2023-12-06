@@ -45,16 +45,16 @@
     "build:pack": "cd dist/ngx-audio-player && npm pack",
     "build:package": "npm run build:lib && npm run build:pack",
     "myBuild": "cd projects/ngx-audio-player &&  sudo ng b --configuration production",
-    "myPublish": "cd dist/ngx-audio-player && sudo npm publish --access public"
+    "myPublish": "cd dist/ngx-audio-player && npm publish --access public"
   },
   "dependencies": {
     "@angular/animations": "^16.2.12",
-    "@angular/cdk": "^15.2.9",
+    "@angular/cdk": "^16.2.12",
     "@angular/common": "^16.2.12",
     "@angular/compiler": "^16.2.12",
     "@angular/core": "^16.2.12",
     "@angular/forms": "^16.2.12",
-    "@angular/material": "^15.2.9",
+    "@angular/material": "^16.2.12",
     "@angular/platform-browser": "^16.2.12",
     "@angular/platform-browser-dynamic": "^16.2.12",
     "@angular/router": "^16.2.12",
