@@ -1,23 +1,23 @@
 import * as i0 from '@angular/core';
 import { Injectable, Pipe, Component, Input, ViewChild, Output, NgModule } from '@angular/core';
-import * as i4 from '@angular/material/table';
-import { MatTableDataSource, MatTableModule } from '@angular/material/table';
-import * as i7 from '@angular/material/paginator';
-import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
+import * as i4 from '@angular/material/legacy-table';
+import { MatLegacyTableDataSource, MatLegacyTableModule } from '@angular/material/legacy-table';
+import * as i7 from '@angular/material/legacy-paginator';
+import { MatLegacyPaginator, MatLegacyPaginatorModule } from '@angular/material/legacy-paginator';
 import { BehaviorSubject, Subject } from 'rxjs';
 import * as i1 from '@angular/common';
 import { CommonModule } from '@angular/common';
-import * as i2 from '@angular/material/button';
-import { MatButtonModule } from '@angular/material/button';
-import * as i3 from '@angular/material/card';
-import { MatCardModule } from '@angular/material/card';
-import * as i5 from '@angular/material/slider';
-import { MatSliderModule } from '@angular/material/slider';
+import * as i2 from '@angular/material/legacy-button';
+import { MatLegacyButtonModule } from '@angular/material/legacy-button';
+import * as i3 from '@angular/material/legacy-card';
+import { MatLegacyCardModule } from '@angular/material/legacy-card';
+import * as i5 from '@angular/material/legacy-slider';
+import { MatLegacySliderModule } from '@angular/material/legacy-slider';
 import * as i6 from '@angular/material/expansion';
 import { MatExpansionModule } from '@angular/material/expansion';
 import * as i8 from '@angular/material/icon';
 import { MatIconModule } from '@angular/material/icon';
-import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatLegacyFormFieldModule } from '@angular/material/legacy-form-field';
 import { FormsModule } from '@angular/forms';
 
 class AudioPlayerService {
@@ -505,7 +505,7 @@ function AudioPlayerComponent_mat_accordion_19_Template(rf, ctx) {
 class AudioPlayerComponent {
     constructor(elem) {
         this.repeat = 'all';
-        this.dataSource = new MatTableDataSource();
+        this.dataSource = new MatLegacyTableDataSource();
         this.tracks = [];
         this.displayTitle = true;
         this.displayPlaylist = true;
@@ -701,7 +701,7 @@ class AudioPlayerComponent {
             this.tracks.forEach((track) => {
                 track.index = index++;
             });
-            this.dataSource = new MatTableDataSource(this.tracks);
+            this.dataSource = new MatLegacyTableDataSource(this.tracks);
             this.dataSource.paginator = this.paginator;
         }
     }
@@ -772,7 +772,7 @@ class AudioPlayerComponent {
 AudioPlayerComponent.ɵfac = function AudioPlayerComponent_Factory(t) { return new (t || AudioPlayerComponent)(i0.ɵɵdirectiveInject(i0.ElementRef)); };
 AudioPlayerComponent.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: AudioPlayerComponent, selectors: [["mat-advanced-audio-player"], ["ngx-audio-player"]], viewQuery: function AudioPlayerComponent_Query(rf, ctx) {
         if (rf & 1) {
-            i0.ɵɵviewQuery(MatPaginator, 5);
+            i0.ɵɵviewQuery(MatLegacyPaginator, 5);
             i0.ɵɵviewQuery(_c0, 7);
         }
         if (rf & 2) {
@@ -839,7 +839,7 @@ AudioPlayerComponent.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: AudioP
             i0.ɵɵadvance(1);
             i0.ɵɵproperty("ngIf", ctx.displayPlaylist && ctx.tracks.length > 1);
         }
-    }, dependencies: [i1.NgIf, i2.MatButton, i3.MatCard, i4.MatTable, i4.MatHeaderCellDef, i4.MatHeaderRowDef, i4.MatColumnDef, i4.MatCellDef, i4.MatRowDef, i4.MatHeaderCell, i4.MatCell, i4.MatHeaderRow, i4.MatRow, i5.MatSlider, i6.MatAccordion, i6.MatExpansionPanel, i6.MatExpansionPanelHeader, i7.MatPaginator, i8.MatIcon, SecondsToMinutesPipe], styles: ["mat-card[_ngcontent-%COMP%], mat-slider[_ngcontent-%COMP%]{padding:0!important}button[_ngcontent-%COMP%]:hover, button[_ngcontent-%COMP%]:focus{outline:0px!important}svg[_ngcontent-%COMP%]{vertical-align:top}.mat-icon[_ngcontent-%COMP%]{height:32px!important;width:32px!important}mat-icon[_ngcontent-%COMP%] > .currently-playing[_ngcontent-%COMP%]{height:16px!important;width:16px!important}table[_ngcontent-%COMP%]{width:100%}  .ngx-audio-player{min-width:375px}.mat-expansion-panel[_ngcontent-%COMP%]{min-width:375px}  .mat-paginator-container{justify-content:space-between!important}.material-icons[_ngcontent-%COMP%]{font-size:16px!important}.play-pause[_ngcontent-%COMP%]{border-left:1px solid rgba(0,0,0,.1);border-right:1px solid rgba(0,0,0,.1)}.volume[_ngcontent-%COMP%]{border-left:1px solid rgba(0,0,0,.1)}.skip-next[_ngcontent-%COMP%]{border-right:1px solid rgba(0,0,0,.1)}*[_ngcontent-%COMP%], [_ngcontent-%COMP%]:after, [_ngcontent-%COMP%]:before{box-sizing:inherit}.ngx-p-1[_ngcontent-%COMP%]{padding:.25rem!important}.ngx-col[_ngcontent-%COMP%], .ngx-col-1[_ngcontent-%COMP%], .ngx-col-10[_ngcontent-%COMP%], .ngx-col-11[_ngcontent-%COMP%], .ngx-col-12[_ngcontent-%COMP%], .ngx-col-2[_ngcontent-%COMP%], .ngx-col-3[_ngcontent-%COMP%], .ngx-col-4[_ngcontent-%COMP%], .ngx-col-5[_ngcontent-%COMP%], .ngx-col-6[_ngcontent-%COMP%], .ngx-col-7[_ngcontent-%COMP%], .ngx-col-8[_ngcontent-%COMP%], .ngx-col-9[_ngcontent-%COMP%], .ngx-col-auto[_ngcontent-%COMP%], .ngx-col-lg[_ngcontent-%COMP%], .ngx-col-lg-1[_ngcontent-%COMP%], .ngx-col-lg-10[_ngcontent-%COMP%], .ngx-col-lg-11[_ngcontent-%COMP%], .ngx-col-lg-12[_ngcontent-%COMP%], .ngx-col-lg-2[_ngcontent-%COMP%], .ngx-col-lg-3[_ngcontent-%COMP%], .ngx-col-lg-4[_ngcontent-%COMP%], .ngx-col-lg-5[_ngcontent-%COMP%], .ngx-col-lg-6[_ngcontent-%COMP%], .ngx-col-lg-7[_ngcontent-%COMP%], .ngx-col-lg-8[_ngcontent-%COMP%], .ngx-col-lg-9[_ngcontent-%COMP%], .ngx-col-lg-auto[_ngcontent-%COMP%], .ngx-col-md[_ngcontent-%COMP%], .ngx-col-md-1[_ngcontent-%COMP%], .ngx-col-md-10[_ngcontent-%COMP%], .ngx-col-md-11[_ngcontent-%COMP%], .ngx-col-md-12[_ngcontent-%COMP%], .ngx-col-md-2[_ngcontent-%COMP%], .ngx-col-md-3[_ngcontent-%COMP%], .ngx-col-md-4[_ngcontent-%COMP%], .ngx-col-md-5[_ngcontent-%COMP%], .ngx-col-md-6[_ngcontent-%COMP%], .ngx-col-md-7[_ngcontent-%COMP%], .ngx-col-md-8[_ngcontent-%COMP%], .ngx-col-md-9[_ngcontent-%COMP%], .ngx-col-md-auto[_ngcontent-%COMP%], .ngx-col-sm[_ngcontent-%COMP%], .ngx-col-sm-1[_ngcontent-%COMP%], .ngx-col-sm-10[_ngcontent-%COMP%], .ngx-col-sm-11[_ngcontent-%COMP%], .ngx-col-sm-12[_ngcontent-%COMP%], .ngx-col-sm-2[_ngcontent-%COMP%], .ngx-col-sm-3[_ngcontent-%COMP%], .ngx-col-sm-4[_ngcontent-%COMP%], .ngx-col-sm-5[_ngcontent-%COMP%], .ngx-col-sm-6[_ngcontent-%COMP%], .ngx-col-sm-7[_ngcontent-%COMP%], .ngx-col-sm-8[_ngcontent-%COMP%], .ngx-col-sm-9[_ngcontent-%COMP%], .ngx-col-sm-auto[_ngcontent-%COMP%], .ngx-col-xl[_ngcontent-%COMP%], .ngx-col-xl-1[_ngcontent-%COMP%], .ngx-col-xl-10[_ngcontent-%COMP%], .ngx-col-xl-11[_ngcontent-%COMP%], .ngx-col-xl-12[_ngcontent-%COMP%], .ngx-col-xl-2[_ngcontent-%COMP%], .ngx-col-xl-3[_ngcontent-%COMP%], .ngx-col-xl-4[_ngcontent-%COMP%], .ngx-col-xl-5[_ngcontent-%COMP%], .ngx-col-xl-6[_ngcontent-%COMP%], .ngx-col-xl-7[_ngcontent-%COMP%], .ngx-col-xl-8[_ngcontent-%COMP%], .ngx-col-xl-9[_ngcontent-%COMP%], .ngx-col-xl-auto[_ngcontent-%COMP%]{position:relative;width:100%;padding-right:15px;padding-left:15px}.ngx-col[_ngcontent-%COMP%]{flex-basis:0;flex-grow:1;max-width:100%}.ngx-justify-content-center[_ngcontent-%COMP%]{justify-content:center!important}.ngx-flex-fill[_ngcontent-%COMP%]{flex:1 1 auto!important}.ngx-d-flex[_ngcontent-%COMP%]{display:flex!important}.ngx-pb-3[_ngcontent-%COMP%], .ngx-py-3[_ngcontent-%COMP%]{padding-bottom:1rem!important}.ngx-pt-3[_ngcontent-%COMP%], .ngx-py-3[_ngcontent-%COMP%]{padding-top:1rem!important}.ngx-pl-1[_ngcontent-%COMP%], .ngx-px-1[_ngcontent-%COMP%]{padding-left:.25rem!important}.ngx-pr-1[_ngcontent-%COMP%], .ngx-px-1[_ngcontent-%COMP%]{padding-right:.25rem!important}@media (max-width: 768px){.ngx-sm-block[_ngcontent-%COMP%]{display:block!important}.ngx-d-none[_ngcontent-%COMP%]{display:none!important}}"] });
+    }, dependencies: [i1.NgIf, i2.MatLegacyButton, i3.MatLegacyCard, i4.MatLegacyTable, i4.MatLegacyHeaderCellDef, i4.MatLegacyHeaderRowDef, i4.MatLegacyColumnDef, i4.MatLegacyCellDef, i4.MatLegacyRowDef, i4.MatLegacyHeaderCell, i4.MatLegacyCell, i4.MatLegacyHeaderRow, i4.MatLegacyRow, i5.MatLegacySlider, i6.MatAccordion, i6.MatExpansionPanel, i6.MatExpansionPanelHeader, i7.MatLegacyPaginator, i8.MatIcon, SecondsToMinutesPipe], styles: ["mat-card[_ngcontent-%COMP%], mat-slider[_ngcontent-%COMP%]{padding:0!important}button[_ngcontent-%COMP%]:hover, button[_ngcontent-%COMP%]:focus{outline:0px!important}svg[_ngcontent-%COMP%]{vertical-align:top}.mat-icon[_ngcontent-%COMP%]{height:32px!important;width:32px!important}mat-icon[_ngcontent-%COMP%] > .currently-playing[_ngcontent-%COMP%]{height:16px!important;width:16px!important}table[_ngcontent-%COMP%]{width:100%}  .ngx-audio-player{min-width:375px}.mat-expansion-panel[_ngcontent-%COMP%]{min-width:375px}  .mat-paginator-container{justify-content:space-between!important}.material-icons[_ngcontent-%COMP%]{font-size:16px!important}.play-pause[_ngcontent-%COMP%]{border-left:1px solid rgba(0,0,0,.1);border-right:1px solid rgba(0,0,0,.1)}.volume[_ngcontent-%COMP%]{border-left:1px solid rgba(0,0,0,.1)}.skip-next[_ngcontent-%COMP%]{border-right:1px solid rgba(0,0,0,.1)}*[_ngcontent-%COMP%], [_ngcontent-%COMP%]:after, [_ngcontent-%COMP%]:before{box-sizing:inherit}.ngx-p-1[_ngcontent-%COMP%]{padding:.25rem!important}.ngx-col[_ngcontent-%COMP%], .ngx-col-1[_ngcontent-%COMP%], .ngx-col-10[_ngcontent-%COMP%], .ngx-col-11[_ngcontent-%COMP%], .ngx-col-12[_ngcontent-%COMP%], .ngx-col-2[_ngcontent-%COMP%], .ngx-col-3[_ngcontent-%COMP%], .ngx-col-4[_ngcontent-%COMP%], .ngx-col-5[_ngcontent-%COMP%], .ngx-col-6[_ngcontent-%COMP%], .ngx-col-7[_ngcontent-%COMP%], .ngx-col-8[_ngcontent-%COMP%], .ngx-col-9[_ngcontent-%COMP%], .ngx-col-auto[_ngcontent-%COMP%], .ngx-col-lg[_ngcontent-%COMP%], .ngx-col-lg-1[_ngcontent-%COMP%], .ngx-col-lg-10[_ngcontent-%COMP%], .ngx-col-lg-11[_ngcontent-%COMP%], .ngx-col-lg-12[_ngcontent-%COMP%], .ngx-col-lg-2[_ngcontent-%COMP%], .ngx-col-lg-3[_ngcontent-%COMP%], .ngx-col-lg-4[_ngcontent-%COMP%], .ngx-col-lg-5[_ngcontent-%COMP%], .ngx-col-lg-6[_ngcontent-%COMP%], .ngx-col-lg-7[_ngcontent-%COMP%], .ngx-col-lg-8[_ngcontent-%COMP%], .ngx-col-lg-9[_ngcontent-%COMP%], .ngx-col-lg-auto[_ngcontent-%COMP%], .ngx-col-md[_ngcontent-%COMP%], .ngx-col-md-1[_ngcontent-%COMP%], .ngx-col-md-10[_ngcontent-%COMP%], .ngx-col-md-11[_ngcontent-%COMP%], .ngx-col-md-12[_ngcontent-%COMP%], .ngx-col-md-2[_ngcontent-%COMP%], .ngx-col-md-3[_ngcontent-%COMP%], .ngx-col-md-4[_ngcontent-%COMP%], .ngx-col-md-5[_ngcontent-%COMP%], .ngx-col-md-6[_ngcontent-%COMP%], .ngx-col-md-7[_ngcontent-%COMP%], .ngx-col-md-8[_ngcontent-%COMP%], .ngx-col-md-9[_ngcontent-%COMP%], .ngx-col-md-auto[_ngcontent-%COMP%], .ngx-col-sm[_ngcontent-%COMP%], .ngx-col-sm-1[_ngcontent-%COMP%], .ngx-col-sm-10[_ngcontent-%COMP%], .ngx-col-sm-11[_ngcontent-%COMP%], .ngx-col-sm-12[_ngcontent-%COMP%], .ngx-col-sm-2[_ngcontent-%COMP%], .ngx-col-sm-3[_ngcontent-%COMP%], .ngx-col-sm-4[_ngcontent-%COMP%], .ngx-col-sm-5[_ngcontent-%COMP%], .ngx-col-sm-6[_ngcontent-%COMP%], .ngx-col-sm-7[_ngcontent-%COMP%], .ngx-col-sm-8[_ngcontent-%COMP%], .ngx-col-sm-9[_ngcontent-%COMP%], .ngx-col-sm-auto[_ngcontent-%COMP%], .ngx-col-xl[_ngcontent-%COMP%], .ngx-col-xl-1[_ngcontent-%COMP%], .ngx-col-xl-10[_ngcontent-%COMP%], .ngx-col-xl-11[_ngcontent-%COMP%], .ngx-col-xl-12[_ngcontent-%COMP%], .ngx-col-xl-2[_ngcontent-%COMP%], .ngx-col-xl-3[_ngcontent-%COMP%], .ngx-col-xl-4[_ngcontent-%COMP%], .ngx-col-xl-5[_ngcontent-%COMP%], .ngx-col-xl-6[_ngcontent-%COMP%], .ngx-col-xl-7[_ngcontent-%COMP%], .ngx-col-xl-8[_ngcontent-%COMP%], .ngx-col-xl-9[_ngcontent-%COMP%], .ngx-col-xl-auto[_ngcontent-%COMP%]{position:relative;width:100%;padding-right:15px;padding-left:15px}.ngx-col[_ngcontent-%COMP%]{flex-basis:0;flex-grow:1;max-width:100%}.ngx-justify-content-center[_ngcontent-%COMP%]{justify-content:center!important}.ngx-flex-fill[_ngcontent-%COMP%]{flex:1 1 auto!important}.ngx-d-flex[_ngcontent-%COMP%]{display:flex!important}.ngx-pb-3[_ngcontent-%COMP%], .ngx-py-3[_ngcontent-%COMP%]{padding-bottom:1rem!important}.ngx-pt-3[_ngcontent-%COMP%], .ngx-py-3[_ngcontent-%COMP%]{padding-top:1rem!important}.ngx-pl-1[_ngcontent-%COMP%], .ngx-px-1[_ngcontent-%COMP%]{padding-left:.25rem!important}.ngx-pr-1[_ngcontent-%COMP%], .ngx-px-1[_ngcontent-%COMP%]{padding-right:.25rem!important}@media (max-width: 768px){.ngx-sm-block[_ngcontent-%COMP%]{display:block!important}.ngx-d-none[_ngcontent-%COMP%]{display:none!important}}"] });
 (function () {
     (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(AudioPlayerComponent, [{
             type: Component,
@@ -848,7 +848,7 @@ AudioPlayerComponent.ɵcmp = /*@__PURE__*/ i0.ɵɵdefineComponent({ type: AudioP
                 type: Input
             }], matPaginator: [{
                 type: ViewChild,
-                args: [MatPaginator, { static: false }]
+                args: [MatLegacyPaginator, { static: false }]
             }], displayTitle: [{
                 type: Input
             }], displayPlaylist: [{
@@ -893,22 +893,22 @@ class NgxAudioPlayerModule {
 }
 NgxAudioPlayerModule.ɵfac = function NgxAudioPlayerModule_Factory(t) { return new (t || NgxAudioPlayerModule)(); };
 NgxAudioPlayerModule.ɵmod = /*@__PURE__*/ i0.ɵɵdefineNgModule({ type: NgxAudioPlayerModule });
-NgxAudioPlayerModule.ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({ imports: [CommonModule, FormsModule, MatButtonModule, MatCardModule, MatTableModule, MatFormFieldModule,
-        MatSliderModule, MatExpansionModule, MatPaginatorModule, MatIconModule] });
+NgxAudioPlayerModule.ɵinj = /*@__PURE__*/ i0.ɵɵdefineInjector({ imports: [CommonModule, FormsModule, MatLegacyButtonModule, MatLegacyCardModule, MatLegacyTableModule, MatLegacyFormFieldModule,
+        MatLegacySliderModule, MatExpansionModule, MatLegacyPaginatorModule, MatIconModule] });
 (function () {
     (typeof ngDevMode === "undefined" || ngDevMode) && i0.ɵsetClassMetadata(NgxAudioPlayerModule, [{
             type: NgModule,
             args: [{
                     declarations: [SecondsToMinutesPipe, AudioPlayerComponent],
-                    imports: [CommonModule, FormsModule, MatButtonModule, MatCardModule, MatTableModule, MatFormFieldModule,
-                        MatSliderModule, MatExpansionModule, MatPaginatorModule, MatIconModule],
+                    imports: [CommonModule, FormsModule, MatLegacyButtonModule, MatLegacyCardModule, MatLegacyTableModule, MatLegacyFormFieldModule,
+                        MatLegacySliderModule, MatExpansionModule, MatLegacyPaginatorModule, MatIconModule],
                     exports: [AudioPlayerComponent]
                 }]
         }], null, null);
 })();
 (function () {
-    (typeof ngJitMode === "undefined" || ngJitMode) && i0.ɵɵsetNgModuleScope(NgxAudioPlayerModule, { declarations: [SecondsToMinutesPipe, AudioPlayerComponent], imports: [CommonModule, FormsModule, MatButtonModule, MatCardModule, MatTableModule, MatFormFieldModule,
-            MatSliderModule, MatExpansionModule, MatPaginatorModule, MatIconModule], exports: [AudioPlayerComponent] });
+    (typeof ngJitMode === "undefined" || ngJitMode) && i0.ɵɵsetNgModuleScope(NgxAudioPlayerModule, { declarations: [SecondsToMinutesPipe, AudioPlayerComponent], imports: [CommonModule, FormsModule, MatLegacyButtonModule, MatLegacyCardModule, MatLegacyTableModule, MatLegacyFormFieldModule,
+            MatLegacySliderModule, MatExpansionModule, MatLegacyPaginatorModule, MatIconModule], exports: [AudioPlayerComponent] });
 })();
 
 class Track {

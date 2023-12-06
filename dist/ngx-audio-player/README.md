@@ -37,7 +37,7 @@ Make sure you have installed below dependencies with same or higher version than
    
 "@angular/core": "^15.2.10"   
 "@angular/common": "^15.2.10"   
-"@angular/material": "^14.2.5"   
+"@angular/material": "^15.2.9"   
 "rxjs": "^7.5.0"   
 
    
@@ -71,9 +71,9 @@ export class AppModule { }
 ##### TS   
 
 ```ts
-import { Track } from 'ngx-audio-player';   
+import { Track } from 'ngx-audio-player';  
    
-.   
+.  
 .   
 
 msaapDisplayTitle = true;

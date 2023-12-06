@@ -1,6 +1,6 @@
 {
   "name": "@khajegan/ngx-audio-player",
-  "version": "15.0.0",
+  "version": "15.0.1",
   "description": "Angular 15 ngx-audio-player",
   "repository": {
     "type": "git",
@@ -41,7 +41,7 @@
   "peerDependencies": {
     "@angular/common": "^15.2.10",
     "@angular/core": "^15.2.10",
-    "@angular/material": "^14.2.5",
+    "@angular/material": "^15.2.9",
     "rxjs": "~7.5.0"
   },
   "dependencies": {
