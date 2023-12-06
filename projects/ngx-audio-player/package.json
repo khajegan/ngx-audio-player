@@ -1,7 +1,7 @@
 {
   "name": "@khajegan/ngx-audio-player",
-  "version": "15.0.3",
-  "description": "Angular 15 ngx-audio-player",
+  "version": "16.0.0",
+  "description": "Angular 16 ngx-audio-player",
   "repository": {
     "type": "git",
     "url": "https://github.com/khajegan/ngx-audio-player.git"
@@ -21,6 +21,7 @@
     "angular13",
     "angular14",
     "angular15",
+    "angular16",
     "audio player",
     "angular audio player",
     "audio player with playlist",
@@ -39,8 +40,8 @@
     "url": "https://github.com/khajegan/ngx-audio-player/issues"
   },
   "peerDependencies": {
-    "@angular/common": "^15.2.10",
-    "@angular/core": "^15.2.10",
+    "@angular/common": "^16.2.12",
+    "@angular/core": "^16.2.12",
     "@angular/material": "^15.2.9",
     "rxjs": "~7.5.0"
   },
