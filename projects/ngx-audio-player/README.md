@@ -1,5 +1,5 @@
 
-A library for loading and playing audio using HTML 5 for Angular 7/8/9/10/11/12/13/14.  
+A library for loading and playing audio using HTML 5 for Angular 7/8/9/10/11/12/13/14/15.  
 (https://github.com/khajegan/ngx-audio-player)
 
 
@@ -35,13 +35,13 @@ $ npm install @khajegan/ngx-audio-player --save
 NgxAudioPlayerModule needs Angular Material.   
 Make sure you have installed below dependencies with same or higher version than mentioned.   
    
-"@angular/core": "^14.2.0"   
-"@angular/common": "^14.2.0"   
+"@angular/core": "^15.2.10"   
+"@angular/common": "^15.2.10"   
 "@angular/material": "^14.2.5"   
 "rxjs": "^7.5.0"   
 
    
-Import `NgxAudioPlayerModule` in  in the root module(`AppModule`):   
+Import `NgxAudioPlayerModule` in the root module(`AppModule`):   
    
 ```typescript   
 // Import library module
