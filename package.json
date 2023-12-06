@@ -1,6 +1,6 @@
 {
   "name": "@khajegan/ngx-audio-player",
-  "version": "15.0.1",
+  "version": "15.0.3",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/khajegan/ngx-audio-player.git"
@@ -42,7 +42,9 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build:pack": "cd dist/ngx-audio-player && npm pack",
-    "build:package": "npm run build:lib && npm run build:pack"
+    "build:package": "npm run build:lib && npm run build:pack",
+    "myBuild": "cd projects/ngx-audio-player &&  sudo ng b --configuration production",
+    "myPublish": "cd dist/ngx-audio-player && sudo npm publish --access public"
   },
   "dependencies": {
     "@angular/animations": "^15.2.10",

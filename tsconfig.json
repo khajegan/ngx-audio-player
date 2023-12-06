@@ -29,5 +29,9 @@
       ]
     },
     "useDefineForClassFields": false
+  },
+  "angularCompilerOptions" : {
+    "enableIvy": true,
+    "compilationMode": "partial"
   }
 }
