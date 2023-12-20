@@ -38,7 +38,7 @@
     "e2e": "ng e2e",
     "build:pack": "cd dist/ngx-audio-player && npm pack",
     "build:package": "npm run build:lib && npm run build:pack",
-    "myScope": "npm init --scope=@khajegan",
+    "myScope": "cd projects/ngx-audio-player && sudo npm init --scope=@khajegan",
     "myBuild": "cd projects/ngx-audio-player &&  sudo ng b --configuration production",
     "myPublish": "cd dist/ngx-audio-player && npm publish --access public"
   },
