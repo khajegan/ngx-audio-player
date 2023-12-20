@@ -14,10 +14,10 @@ export class SecondsToMinutesPipe {
         }
         return `${minutes}:${seconds}`;
     }
-    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.0.6", ngImport: i0, type: SecondsToMinutesPipe, deps: [], target: i0.ɵɵFactoryTarget.Pipe }); }
-    static { this.ɵpipe = i0.ɵɵngDeclarePipe({ minVersion: "14.0.0", version: "17.0.6", ngImport: i0, type: SecondsToMinutesPipe, name: "secondsToMinutes" }); }
+    static { this.ɵfac = i0.ɵɵngDeclareFactory({ minVersion: "12.0.0", version: "17.0.7", ngImport: i0, type: SecondsToMinutesPipe, deps: [], target: i0.ɵɵFactoryTarget.Pipe }); }
+    static { this.ɵpipe = i0.ɵɵngDeclarePipe({ minVersion: "14.0.0", version: "17.0.7", ngImport: i0, type: SecondsToMinutesPipe, name: "secondsToMinutes" }); }
 }
-i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.0.6", ngImport: i0, type: SecondsToMinutesPipe, decorators: [{
+i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.0.7", ngImport: i0, type: SecondsToMinutesPipe, decorators: [{
             type: Pipe,
             args: [{ name: 'secondsToMinutes' }]
         }] });
