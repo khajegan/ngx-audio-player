@@ -3,11 +3,11 @@ import 'hammerjs';
 import { AudioPlayerComponent } from './ngx-audio-player.component';
 
 import { MatExpansionModule } from '@angular/material/expansion';
-import { MatLegacyFormFieldModule as MatFormFieldModule } from '@angular/material/legacy-form-field';
-import { MatLegacyPaginatorModule as MatPaginatorModule } from '@angular/material/legacy-paginator';
-import { MatLegacySliderModule as MatSliderModule } from '@angular/material/legacy-slider';
-import { MatLegacyTableModule as MatTableModule } from '@angular/material/legacy-table';
-import { MatLegacyCardModule as MatCardModule } from '@angular/material/legacy-card';
+import { MatFormFieldModule } from '@angular/material/legacy-form-field';
+import { MatPaginatorModule } from '@angular/material/legacy-paginator';
+import { MatSliderModule } from '@angular/material/legacy-slider';
+import { MatTableModule } from '@angular/material/legacy-table';
+import { MatCardModule } from '@angular/material/legacy-card';
 
 import { AudioPlayerService } from '../../service/audio-player-service/audio-player.service';
 import { SecondsToMinutesPipe } from '../../pipe/seconds-to-minutes';

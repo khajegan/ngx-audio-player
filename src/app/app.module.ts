@@ -7,17 +7,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
-import { MatLegacyRadioModule as MatRadioModule } from '@angular/material/legacy-radio';
-import { MatLegacyCheckboxModule as MatCheckboxModule } from '@angular/material/legacy-checkbox';
-import { MatLegacySlideToggleModule as MatSlideToggleModule } from '@angular/material/legacy-slide-toggle';
-import { MatLegacyCardModule as MatCardModule } from '@angular/material/legacy-card';
+import { MatRadioModule } from '@angular/material/legacy-radio';
+import { MatCheckboxModule } from '@angular/material/legacy-checkbox';
+import { MatSlideToggleModule } from '@angular/material/legacy-slide-toggle';
+import { MatCardModule } from '@angular/material/legacy-card';
 
 import { HomeComponent } from './pages/home/home.component';
 import { GettingStartedComponent } from './pages/gettingstarted/gettingstarted.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { NgxAudioPlayerModule } from 'projects/ngx-audio-player/src/public_api';
-import { MatLegacyButtonModule as MatButtonModule } from '@angular/material/legacy-button';
+import { MatButtonModule } from '@angular/material/legacy-button';
 
 import {NavBarModule} from './shared/navbar';
 import {FooterModule} from './shared/footer';
