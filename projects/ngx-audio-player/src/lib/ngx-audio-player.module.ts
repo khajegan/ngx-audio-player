@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 
-import { MatSliderModule } from '@angular/material/legacy-slider';
-import { MatPaginatorModule } from '@angular/material/legacy-paginator';
-import { MatTableModule } from '@angular/material/legacy-table';
-import { MatFormFieldModule } from '@angular/material/legacy-form-field';
+import { MatSliderModule } from '@angular/material/slider';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatTableModule } from '@angular/material/table';
+import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatExpansionModule } from '@angular/material/expansion';
-import { MatCardModule } from '@angular/material/legacy-card';
-import { MatButtonModule } from '@angular/material/legacy-button';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
 
 import { CommonModule } from '@angular/common';
 import { SecondsToMinutesPipe } from './pipe/seconds-to-minutes';
