@@ -125,8 +125,9 @@
                 </span>
             </div>
             <mat-slider [disabled]="disablePositionSlider" (change)="currTimePosChanged($event)" [min]="startOffset"
-                class="ngx-d-none ngx-d-sm-block ngx-flex-fill ngx-p-1" max="{{duration-endOffset}}" style="width: 100%"
-                value="{{currentTime}}"></mat-slider>
+                class="ngx-d-none ngx-d-sm-block ngx-flex-fill ngx-p-1" max="{{duration-endOffset}}" style="width: 100%">
+                <input matSliderThumb value="{{currentTime}}">
+            </mat-slider>
 
             <div class="ngx-py-3 ngx-px-1" style="font-size: 12px; text-align: right">
                 <span *ngIf="duration !== 0.01">

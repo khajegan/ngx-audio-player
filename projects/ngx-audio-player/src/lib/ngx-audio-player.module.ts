@@ -19,7 +19,7 @@ import { AudioPlayerComponent } from './component/ngx-audio-player/ngx-audio-pla
   declarations: [SecondsToMinutesPipe, AudioPlayerComponent],
   imports: [CommonModule, FormsModule, MatButtonModule, MatCardModule, MatTableModule, MatFormFieldModule,
     MatSliderModule, MatExpansionModule, MatPaginatorModule, MatIconModule],
-  exports: [AudioPlayerComponent]
+  exports: [AudioPlayerComponent, MatSliderModule]
 })
 export class NgxAudioPlayerModule {
 }

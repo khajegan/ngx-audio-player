@@ -37,7 +37,7 @@ Make sure you have installed below dependencies with same or higher version than
 
 "@angular/core": "^17.0.6"   
 "@angular/common": "^17.0.6"   
-"@angular/material": "^17.0.3"   
+"@angular/material": "^17.0.4"   
 "rxjs": "^7.8.0"   
 
    
